@@ -24,7 +24,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         app:iconifiedByDefault="false"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:background="#A39F9F"/>
 
     <Button
