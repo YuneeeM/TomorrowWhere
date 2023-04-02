@@ -6,6 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"/>
+    </LinearLayout>
+
+    -->
+
     <LinearLayout
         android:id="@+id/login_ll_1"
         android:layout_width="match_parent"
@@ -14,7 +31,6 @@
         android:background="?attr/selectableItemBackground"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
@@ -57,6 +73,7 @@
         android:layout_marginRight="40dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
